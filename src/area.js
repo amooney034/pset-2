@@ -1,7 +1,6 @@
 const readlineSync = require("readline-sync");
-
 const convert = 25.4
-let w_inches = Number(readlineSync.question("Width: "));
+let w_inches = Number(readlineSync.question("\nWidth: "));
 let l_inches = Number(readlineSync.question("Length: "));
 let width = w_inches * 25.4
 let length = l_inches * 25.4
