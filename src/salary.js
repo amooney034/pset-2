@@ -1,0 +1,9 @@
+const readlineSync = require("readline-sync");
+const fourOoneK = 0.07
+const fed_income = 0.157
+const state_income = 0.0447
+const ss = 0.062
+const med = 0.0145
+const paycheck = 24
+let annual_salary = Number(readlineSync.question("\n"));
+let paid = (annual_salary / paycheck)
