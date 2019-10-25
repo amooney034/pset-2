@@ -17,4 +17,5 @@ let final_quiz = (((quiz1 + quiz2 + quiz3) / assignments) * quiz);
 let final_test = (((test1 + test2 + test3) / assignments) * test);
 let grade = (final_homework + final_quiz + final_test);
 let final_grade = grade.toLocaleString ("en", {minimumFractionDigits:2, maximumFractionDigits:2});
+
 console.log("\nYour marking period grade is " + final_grade + "%.\n");
