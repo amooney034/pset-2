@@ -6,5 +6,5 @@ let width = w_inches * convert
 let length = l_inches * convert
 let perimeter = width + width + length + length
 perimeter = Math.round(100*perimeter)/(100);
-final_perimeter = perimeter.toLocaleString ();
+final_perimeter = perimeter.toLocaleString ("en", {minimumFractionDigits:2, maximumFractionDigits:2});
 console.log("\nA(n) " + w_inches + "-by-" + l_inches + "-inch sheet of paper has a perimeter of " + final_perimeter + " centimeter(s).\n");
