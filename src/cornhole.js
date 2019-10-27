@@ -10,4 +10,4 @@ let circle_area = ((radius * radius) * Math.PI);
 let surface_area = (area - circle_area);
 let final_sa = surface_area.toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
-console.log("\nThe surface area of a standard Cornhole board is " + final_sa  + " square inch(es).\n")
+console.log("\nThe surface area of a standard Cornhole board is " + final_sa  + " square inch(es).\n");
